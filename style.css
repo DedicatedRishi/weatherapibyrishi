@@ -131,11 +131,7 @@ body{
     font-size: 12px;
 }
 @media only screen and (max-width:1200px){
-    body{
-        background: url("./images/backgroun-image2.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+    
     .container{
         padding: 20px;
     }
@@ -179,4 +175,17 @@ body{
         font-size: 14px;
     }
    
+}
+@media only screen and (max-width:917px){
+    body{
+        background: url("./images/backgroun-image2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media only screen and (max-width:373px){
+    .place-container #time-zone{
+        /* background-color: red; */
+        font-size: 20px;
+    }   
 }
